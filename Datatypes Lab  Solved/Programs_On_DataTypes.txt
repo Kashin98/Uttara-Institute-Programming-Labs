@@ -1,0 +1,182 @@
+
+1.) WAP to assign an Hex value to an int and see the result similarly check it for Octal ?
+
+2.) WAP to add two int values and see the result ? 
+
+3.) WAP add byte value and with no. 10 and see the result ?
+
+4.) WAP to add byte and short value then assign the output value to short and see the result ?
+
+20.) WAP to assign a Maximum long(data type) value to float and see the result ?
+
+21.) WAP to subtract two int values and see the result ?
+
+22.) WAP to Multiply two int values and see the result ?
+
+23.) WAP to Divide two int values and get the output of remainder and quotient ?
+
+26.) Try to remember the precedence of each operator which is given below ?
+
+     1.)  ARITHMETIC OPERATORS 	::  Precedence 	:   Associativity
+	
+	  a.)	* , / , %    	::    2	    	:   Left - Right
+	  b.)   + , -        	::    1        	:   L - R
+	  
+	
+     
+     2.)  RELATIONAL OPERATORS
+	
+	  c.)   <, <=, >, >= 	::    1        	:   L - R
+	  d.)   == , !=      	::    2        	:   L - R
+     
+     
+     3.)  LOGICAL OPERATORS	  
+     	  
+     	  e.)   ! (Logical Not)	::    1		:   L - R
+	  f.)	&&(Logical AND) ::    2
+	  g.)   ||(Logical OR)  ::    3
+     
+     
+     4.)  BITWISE OPERATORS
+     
+     	  h.)   ~ (Bitwise NOT) ::    1		:   L - R
+     	  i.)   <<(Left Shift)  ::    2		:   L - R
+     	  j.)   >>(Right Shift) ::    2		:   L - R
+     	  k.)   & (Bitwise AND) ::    3		:   L - R
+     	  l.)   | (Bitwise OR)  ::    4		:   L - R
+     	  m.)   ^ (Bitwise XOR) ::    5		:   L - R
+     
+     
+     5.)  CONDITIONAL OPERATOR  
+     	  
+     	  n.)   ? :             ::    -         :   R - L    	
+     	
+     	
+27.) Execute the code given below and check the o/p ?
+	
+	a.) System.out.println(1+2*5/2-2*4);
+	b.) System.out.println(1*2*5-2+24);
+	c.) System.out.println(1+2/5/2/2-4);
+	
+28.) Execute the code given below and check the o/p ?
+
+	a.) System.out.println(10);
+	b.) System.out.println(012);
+	c.) System.out.println(0xAB);
+	
+33.)   Execute the code given below and check the o/p ?
+	
+	a.) int x = 10;
+	    int y = 6;
+	    System.out.println(x | y);
+	    
+	b.) int a = 100;
+	    int b = 50;
+	    System.out.println(a | b);
+	    
+34.)Execute the code given below and check the o/p ?
+
+	a.) int x = 10;
+	    int y = 6;
+	    System.out.println(x & y);
+
+	b.) int a = 100;
+	    int b = 50;
+	    System.out.println(a & b);
+	    
+35.) Execute the code given below and check the o/p ?
+
+	a.) int x = 10;
+	    int y = 6;
+	    System.out.println(x ^ y);
+
+	b.) int a = 100;
+	    int b = 50;
+	    System.out.println(a ^ b);
+	    
+36.) Execute the code given below and check the o/p ?
+
+	a.) int x = 10;
+	    System.out.println(x >>> 2);
+
+	b.) int a = -10;
+	    System.out.println(a >>> 2);
+	    
+37.) Execute the code given below and check the o/p ?
+
+	a.) System.out.println(4 | 3);
+	b.) System.out.println(4 | 4);
+	c.) System.out.println(4 & 3);
+	d.) System.out.println(4 / 3);
+	
+	
+42.) Execute the code given below and check the o/p ?
+	
+	Ternary operator syntax and working is 
+	(cond exp) ? x : y => meaning if cond exp is true, x is
+	returned else y. 
+
+	Check the working of it:
+	System.out.println(1==1 ? 5 : 6);
+	System.out.println(1==2 ? 5 : 6);
+	System.out.println(1==1 ? true : false);
+	System.out.println(1==2 ? false : true);
+
+	a.) System.out.println( true ? false : true);
+	b.) System.out.println( true ? true: false);
+	
+	c.) char x = 'X';
+	    int i=0;
+	    System.out.pritntln(true ? x : 0);
+	    System.out.pritntln(false ? i : x);
+	
+43.) Execute the code given below and check the o/p ?
+
+     a.)  int i = 0;
+	  boolean t = true;
+	  boolean f = false, b;
+	  b = (t & ((i++) == 0));
+	  b = (f & ((i+=2) > 0));
+	  System.out.println(i);
+	
+47.) Execute the code given below and check the o/p ?
+	
+	int i = 50;
+	
+	while(i != 0){
+		System.out.println(i >>>= 1);
+	}
+	// i>>>=1 => i = i >>> 1. Do you understand working of this?
+
+48.) Execute the code given below and check the o/p ?
+     
+     a.)int i = 55;
+        int j = 55;
+     
+        while(i <= j && j<=i & i==j){
+        	System.out.println("Abc");
+        }
+     
+------------------------------------------------------------------------------------------------
+
+Basic Questions (solve directly in main() for practice):
+     
+49.) WAP to find the Area of circle ?
+
+50.) WAP to find the Area of Rectangle ?
+
+51.) WAP to find the Area of Square ?
+
+52.) WAP to find the Area of Triangle ?
+
+53.) WAP to find the Perimeter of circle ?
+
+54.) WAP to find the value of Simple Interest ?
+
+55.) WAP to find the power of two no's ?
+
+56.) WAP to find the cube of two no's ?
+
+57.) WAP to check wether the triangle is equilateral triangle or not ?
+
+58.) WAP to find the average of given 10 numbers ?
